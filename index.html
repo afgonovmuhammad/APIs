@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./all.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    
+   <div class="box_0">
+    <div class="box">
+        <Caption><h1 class="h1">Table Users</h1></Caption>
+       <div class="body">
+        <button class='Add glowing-btn'><span class='glowing-txt'>A<span class='faulty-letter'>d</span>d</span></button>
+       </div>
+        <!-- <button class="Add">Add</button> -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Phone</th>
+                    <th>Course</th>
+                    <th colspan="3">Action</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+
+            </tbody>
+        </table>
+    </div>
+   </div>
+     <!-- modal add -->
+     <div id="myModal_1" class="modal_1">
+        <!-- Modal content -->
+        <div class="modal-content_1">
+            <form action="" class="editForm">
+                <input class="inpName" type="text" name="name" placeholder="addName" >
+                <input class="inpAge" type="text" name="age" placeholder="addAge">
+                <input class="inpPhine" type="text" name="phone" placeholder="addPhone">
+                <input class="addCourse" type="text" name="course" placeholder="addCourse">
+                <button type="submit" class="btnAdd_2">Edit</button>
+               </form>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <form action="" class="form_1">
+                <input class="inpName" type="text" name="name" placeholder="addName" >
+                <input class="inpAge" type="text" name="age" placeholder="addAge">
+                <input class="inpPhine" type="text" name="phone" placeholder="addPhone">
+                <input class="addCourse" type="text" name="course" placeholder="addCourse">
+                <button type="submit" class=" btnAdd_2">Add</button>
+            </form>
+        </div>
+        </div>
+
+         <!-- modal delete -->
+  <div id="myModal_2" class="modal_2">
+    <!-- Modal content -->
+    <div class="modal-content_2">
+        
+            <button class="btnYes">YES</button>
+            <button class="btnNo">NO</button>
+          
+    </div>
+    </div>
+    <div id="myModal_A" class="modal_A">
+        <!-- Modal content -->
+        <div class="modal-content_A">
+            <form class="form_A" action="">
+                <button type="submit"><i class="fa-sharp fa-solid fa-arrow-left"></i></button>
+                <div class="card">
+                
+                </div>
+            </form>
+        </div>
+        </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="./js/main.js" type="module"></script>
+</body>
+</html>

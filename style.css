@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.h1{
+    color: bisque;
+    font-size: 42px;
+    padding: 10px 10px;
+}
+.box_0{
+
+  background-image: url(./img/2021-11-03-ACADPANEL-Index_1170x780.webp);
+  block-size: 100% 100%;
+  background-repeat: repeat-x;
+  height: 100vh;
+  background-size: cover;
+}
+.box{
+  padding-top:140px;
+  text-align: center;
+  width: 100%;
+
+}
+.table{
+    width: 50%;
+  border: 3px solid rgb(65, 97, 150);
+  margin: auto;
+  border-radius: 10px;
+}
+.table thead tr th{
+  border: 2px solid rgb(30, 66, 121);
+  border-radius: 3px;
+  color: rgb(150, 109, 58);
+
+}
+.table tbody tr th{
+    border: 2px solid rgb(37, 65, 124);
+    color: rgb(150, 109, 53);
+  border-radius: 3px;
+}
+.table tbody{
+
+}
+ /* The Modal (background) */
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #363b2f;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border-radius: 25px;
+    border: 3px solid rgb(11, 11, 11);
+    width: 60%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* Edit */
+
+  /* eee */
+  /* The Modal (background) */
+ .modal_A {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content_A {
+    background-color: #363b2f;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border-radius: 25px;
+    border: 3px solid rgb(11, 11, 11);
+    width: 20%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close_A {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close_A:hover,
+  .close_A:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  h2{
+    color:white;
+  }
+
+  /* Edit */
+  /* eee  end*/
+
+  /* The Modal (background) */
+  .modal_1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content_1 {
+    background-color: #8c7c7c;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 5px solid #888;
+    border-radius: 50px;
+    width: 60%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close_1 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close_1:hover,
+  .close_1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* Edit  end*/
+
+  /*
+    modal add 
+*/
+ /* The Modal (background) */
+ .modal_2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+  
+/* Modal Content/Box */
+.modal-content_2 {
+  text-align: center;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border-radius: 55px;
+    border: 1px solid #888;
+    width: 10%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close_2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close_2:hover,
+  .close_2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /*  */
+
+  
+
+
+  
+/* .Add{
+margin-left: -630px;
+margin-top: 15px;
+background-color: rgb(122, 134, 211);
+border: 2px solid rgb(132, 83, 220);
+cursor: pointer;
+padding: 3px 9px;
+border-radius: 10px;
+color: antiquewhite;
+} 
+.Add:hover{
+/* margin-left: 300px; */
+
+/* ackground-color: rgb(66, 40, 40);
+border: 2px solid rgb(70, 53, 53);
+border-radius: 10px;
+box-shadow: 0px 0px 3px 2px rgb(142, 122, 122);
+color: rgb(255, 255, 255);
+}   margin-top: 15px; */ */
+b
+
+.btnAdd_2{
+    padding: 1px 10px;
+background-color: rgb(15, 132, 17);
+border: 2px solid rgb(19, 140, 71);
+color: rgb(251, 251, 251);
+cursor: pointer;
+border-radius: 5px;
+} 
+.btnAdd_2:hover{
+background-color: rgb(90, 66, 66);
+border: 2px solid rgb(90, 60, 60);
+border-radius: 10px;
+color: rgb(255, 255, 255);
+box-shadow: 0px 0px 3px 2px rgb(255, 255, 255);
+} 
+
+/* btnYes   btnNo*/
+.btnYes{
+    background-color: rgb(18, 186, 32);
+    border: 2px solid rgb(18, 188, 19);
+    padding: 2px 6px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .btnYes:hover{
+    background-color: rgb(186, 24, 18);
+    border: 2px solid rgb(186, 188, 19);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 5px  rgb(98, 88, 92);
+  }
+  .btnNo{
+    padding: 2px 6px;
+    cursor: pointer;
+    background-color: rgb(186, 24, 18);
+    border: 2px solid rgb(186, 24, 19);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+  }
+  .btnNo:hover{
+    background-color: rgb(18, 186, 32);
+    border: 2px solid rgb(18, 188, 19);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px  rgb(98, 88, 92);
+    color: rgb(255, 255, 255);
+  }
+
+  /*  */
+
+  @import url("https://fonts.googleapis.com/css?family=Raleway");
+
+:root {
+  --glow-color: hsl(184, 60%, 48%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+.body {
+  height: 10%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.body {
+  min-height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(243, 246, 247, 0);
+}
+
+.glowing-btn {
+  position: relative;
+  color: rgb(9, 9, 9);
+  cursor: pointer;
+  padding: 0.15em 3em;
+  border: 0.15em solid var(--glow-color);
+  border-radius: 0.45em;
+  background: none;
+  perspective: 2em;
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1em;
+
+  -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  animation: border-flicker 2s linear infinite;
+}
+
+.glowing-txt {
+  float: left;
+  margin-right: -0.8em;
+  -webkit-text-shadow: 0 0 0.125em hsl(0, 100%, 99%),
+    0 0 0.45em var(--glow-color);
+  -moz-text-shadow: 0 0 0.125em hsl(150, 100%, 100%),
+    0 0 0.45em var(--glow-color);
+  text-shadow: 0 0 0.125em hsl(0, 0%, 100%), 0 0 0.45em var(--glow-color);
+  animation: text-flicker 3s linear infinite;
+}
+
+.faulty-letter {
+  opacity: 0.5;
+  animation: faulty-flicker 2.5s linear infinite;
+}
+
+.glowing-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.7;
+  filter: blur(1em);
+  transform: translateY(120%) rotateX(95deg) scale(1, 0.35);
+  background: green;
+  pointer-events: none;
+}
+
+.glowing-btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: -1;
+  background-color: goldenrod;
+  border-radius: 15px;
+  box-shadow: 0 0 2em 0.2em var(--glow-color);
+  transition: opacity 100ms linear;
+}
+
+.glowing-btn:hover {
+  color: rgba(0, 0, 0, 0.8);
+  /* text-shadow: none; */
+  /* animation: none; */
+}
+
+.glowing-btn:hover .glowing-txt {
+  animation: none;
+}
+
+.glowing-btn:hover .faulty-letter {
+  animation: none;
+  text-shadow: none;
+  opacity: 1;
+}
+
+.glowing-btn:hover:before {
+  filter: blur(1.5em);
+  opacity: 1;
+}
+
+.glowing-btn:hover:after {
+  opacity: 1;
+}
+
+@keyframes faulty-flicker {
+  0% {
+    opacity: 1;
+  }
+  2% {
+    opacity: 0.1;
+  }
+  4% {
+    opacity: 0.5;
+  }
+  19% {
+    opacity: 0.5;
+  }
+  21% {
+    opacity: 0.1;
+  }
+  23% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.5;
+  }
+  83% {
+    opacity: 0.4;
+  }
+
+  87% {
+    opacity: 1;
+  }
+}
+
+@keyframes text-flicker {
+  0% {
+    opacity: 0.1;
+  }
+
+  2% {
+    opacity: 1;
+  }
+
+  8% {
+    opacity: 0.1;
+  }
+
+  9% {
+    opacity: 1;
+  }
+
+  12% {
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.3;
+  }
+  30% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.7;
+  }
+  72% {
+    opacity: 0.2;
+  }
+
+  77% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+@keyframes border-flicker {
+  0% {
+    opacity: 0.1;
+  }
+  2% {
+    opacity: 1;
+  }
+  4% {
+    opacity: 0.1;
+  }
+
+  8% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .glowing-btn{
+    font-size: 1em;
+  }
+}
+i{
+  font-size: 22px;
+  background: none;
+  background-color: cadetblue;
+  color: rgb(47, 50, 60);
+  /* border: none; */
+}
